@@ -34,10 +34,10 @@ if (whatsappForm) {
         
         const name = document.getElementById('name').value;
         const message = document.getElementById('message').value;
-        const phoneNumber = "554499837746"; 
+        const phoneNumber = "5544998377476"; 
         
         const text = `Olá, meu nome é *${name}*.\n\n${message}`;
-        const whatsappUrl = `https://wa.me/${5544998377476}?text=${encodeURIComponent(text)}`;
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
         
         window.open(whatsappUrl, '_blank');
     });
