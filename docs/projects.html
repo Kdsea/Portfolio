@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos - Meu Portfólio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <nav>
+        <div class="logo">Σ</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Sobre</a></li>
+            <li><a href="projects.html" class="active">Projetos</a></li>
+            <li><a href="entreemcontato.html">Contato</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <div class="glow-bg"></div>
+    <div class="noise-overlay"></div>
+    <canvas id="particles-canvas"></canvas>
+
+    <div class="background-symbols">
+        <span>&lt;/&gt;</span>
+        <span>{}</span>
+        <span>def</span>
+        <span>()</span>
+        <span>#</span>
+        <span>;</span>
+        <span>&lt;/&gt;</span>
+    </div>
+
+    <section class="work-experience">
+        <h2>Projetos em Destaque</h2>
+        <div class="grid-container">
+            <div class="card reveal" data-lightbox-src="https://via.placeholder.com/1200x800/1a103c/a875ff?text=E-commerce+Project">
+                <div class="card-icon">⚽</div>
+                <h3>E-commerce de Camisas de Time</h3>
+                <p>Desenvolvimento completo de uma loja virtual para venda de camisas de futebol, desde a landing page até o catálogo.</p>
+                <a href="https://github.com/Kdsea/HYNATION" target="_blank" class="btn">Saiba Mais</a>
+                <a href="/assets/images/catalogofinal.png" class="btn lightbox-trigger">Ver Imagem</a>
+            </div>
+
+            <div class="card reveal" data-lightbox-src="https://via.placeholder.com/1200x800/1a103c/a875ff?text=Android+App">
+                <div class="card-icon">📱</div>
+                <h3>Rede Social</h3>
+                <p>Criação de uma rede social voltada para animais em situações de rua em desenvolvimento com colegas de classe.</p>
+                <a href="https://github.com/Kdsea/Helpett" target="_blank" class="btn">Saiba Mais</a>
+                <a href="#" class="btn lightbox-trigger">Ver Imagem</a>
+            </div>
+            
+            <div class="card reveal" data-lightbox-src="https://via.placeholder.com/1200x800/1a103c/a875ff?text=Python+API">
+                <div class="card-icon">⚙️</div>
+                <h3>Sistema de Gestão</h3>
+                <p>Sistema de gestão criada para praticar lógica de programação, esse sistema baseia-se em gestão de livros de uma biblioteca.</p>
+                <a href="https://github.com/Kdsea/Livraria" target="_blank" class="btn">Saiba Mais</a>
+                <a href="#" class="btn lightbox-trigger">Ver Imagem</a>
+            </div>
+        </div>
+    </section>
+
+    <div id="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <footer>
+    </footer>
+
+    <button id="backToTop" aria-label="Voltar ao Topo"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

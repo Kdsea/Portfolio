@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Kauã De Souza Araujo</title>
+    
+    <meta name="description" content="Entre em contato com Kauã De Souza Araujo para oportunidades de desenvolvimento de software, parcerias ou freelancing.">
+    <meta name="robots" content="index, follow">
+    
+    <meta property="og:title" content="Fale Comigo | Kauã De Souza Araujo">
+    <meta property="og:description" content="Vamos construir algo incrível juntos? Entre em contato via E-mail, LinkedIn ou WhatsApp.">
+    <meta property="og:url" content="https://seu-site.com/entreemcontato.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;600&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <nav>
+        <div class="logo">Σ</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Sobre</a></li>
+            <li><a href="projects.html">Projetos</a></li>
+            <li><a href="entreemcontato.html" class="active">Contato</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <div class="glow-bg"></div>
+    <div class="noise-overlay"></div>
+    <canvas id="particles-canvas"></canvas>
+
+    <div class="background-symbols">
+        <span>&lt;/&gt;</span>
+        <span>{}</span>
+        <span>def</span>
+        <span>()</span>
+        <span>#</span>
+        <span>;</span>
+        <span>&lt;/&gt;</span>
+    </div>
+
+    <section class="contact-page">
+        <h2>Vamos Conversar?</h2>
+        <div class="contact-container">
+            <!-- Opções de Contato Direto -->
+            <div class="contact-info card">
+                <h3>Outros Canais</h3>
+                <p>Sinta-se à vontade para me chamar nas redes sociais ou enviar um e-mail.</p>
+                <div class="contact-links">
+                    <a href="k2183109@gmail.com" class="contact-item"><i class="fas fa-envelope"></i> E-mail</a>
+                    <a href="https://www.linkedin.com/in/kau%C3%A3-de-souza-araujo-739073345/" target="_blank" class="contact-item"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com/Kdsea" target="_blank" class="contact-item"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <!-- Formulário WhatsApp -->
+            <div class="contact-form-wrapper card">
+                <h3>Mande uma mensagem</h3>
+                <form id="whatsappForm">
+                    <div class="form-group">
+                        <label for="name">Seu Nome</label>
+                        <input type="text" id="name" placeholder="Como devo te chamar?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" placeholder="Escreva sua ideia ou dúvida aqui..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-whatsapp">Enviar no WhatsApp <i class="fab fa-whatsapp"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+    </footer>
+
+    <button id="backToTop" aria-label="Voltar ao Topo"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
