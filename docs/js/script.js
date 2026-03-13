@@ -34,7 +34,7 @@ if (whatsappForm) {
         
         const name = document.getElementById('name').value;
         const message = document.getElementById('message').value;
-        const phoneNumber = "554499837746"; // INSIRA SEU NÚMERO AQUI (DDD + NÚMERO)
+        const phoneNumber = "554499837746"; 
         
         const text = `Olá, meu nome é *${name}*.\n\n${message}`;
         const whatsappUrl = `https://wa.me/${5544998377476}?text=${encodeURIComponent(text)}`;
@@ -47,13 +47,13 @@ if (whatsappForm) {
 const symbols = document.querySelectorAll('.background-symbols span');
 
 symbols.forEach((symbol) => {
-    // Posição aleatória (0% a 90% para não vazar muito da tela)
+    // Posição aleatória 
     const posX = Math.random() * 95;
     const posY = Math.random() * 95;
     
     // Tamanho e rotação aleatórios
-    const size = Math.random() * 5 + 2; // Entre 2rem e 7rem
-    const rotate = Math.random() * 360; // Rotação inicial
+    const size = Math.random() * 5 + 2; 
+    const rotate = Math.random() * 360; 
     
     symbol.style.left = `${posX}%`;
     symbol.style.top = `${posY}%`;
